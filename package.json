@@ -10,8 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.10",
+    "axios": "^1.7.7",
+    "graphql": "^16.9.0",
     "nuxt": "^3.14.159",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0",
+    "vue-sound": "^0.1.10"
   }
 }
